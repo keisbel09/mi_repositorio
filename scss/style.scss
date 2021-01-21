@@ -1,9 +1,17 @@
+/* Tabla Colores */
+$primario: #008080; //Turquesa
+$secundario: #212121; //Gris Plomo
+$terciario: #F0F8FF; //Verde Agua
+$letra-primaria: #000000; //Negro
+$letra-secundaria: #ffffff; //Blanco
+
 * {
   padding: 0;
   margin: 0;
   font-size: 15px;
   font-family: sans-serif, Impact;
-  line-height: 20px; }
+  line-height: 20px;
+}
 
 h2 {
   font-size: 40px;
@@ -13,7 +21,6 @@ h2 {
   margin-bottom: 50px;
   text-decoration-line: underline;
 }
-
 
 /**Index**/
 
@@ -27,7 +34,7 @@ h2 {
 }
 
 .texto-servicios {
-  color: white;
+  color: $letra-secundaria;
 }
 
 /**Ecommerce**/
@@ -38,8 +45,8 @@ h5 {
 }
 
 .text-ecommerce {
-  background-color: #008080;
-  color: white;
+  background-color: $primario;
+  color: $letra-secundaria;
   text-decoration: none;
   width: 100%; 
   height: 100%;
@@ -58,29 +65,32 @@ ul .contenido-lista {
 }
 /**
 .ecommerce-beneficios{
-  background-color: #212121;
+  background-color: $secundario;
 }
 **/
 
 /**Contactos**/
+#contacto {
+	background-color: $terciario;
+}
 
 .btn-primary {
   margin-right: 10px;
-  background:   #20B2AA;
+  background:   $primario;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #008080;
+  background-color: $primario;
 }
 
 
 /**footer**/
 
 .footer {
-  background-color: #212121;
+  background-color: $secundario;
 }
 
 .footer a {
-  color:white;
+  color: $letra-secundaria;
 }
