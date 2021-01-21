@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -8,79 +7,61 @@
 
 h2 {
   font-size: 40px;
-  color:  #20B2AA;
+  color: #20B2AA;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  text-decoration-line: underline;
-}
-
+  text-decoration-line: underline; }
 
 /**Index**/
-
-.btn-grafico{
+.btn-grafico {
   margin-right: 10px;
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
-.nuestros-servicios{
-  background-image: url(multimedia/servicios.jpg);
-}
+.nuestros-servicios {
+  background-image: url(multimedia/servicios.jpg); }
 
-.texto-servicios{
-  color: white;
-}
+.texto-servicios {
+  color: white; }
 
 /**Ecommerce**/
-
-h5{
+h5 {
   font-size: 20px;
-  font-weight: : bold;
-}
+  font-weight: bold; }
 
-.text-ecommerce{
+.text-ecommerce {
   background-color: #008080;
   color: white;
   text-decoration: none;
-  width: 100%; 
-  height: 100%;
-}
+  width: 100%;
+  height: 100%; }
 
-li{
-  list-style: none;
-}
+li {
+  list-style: none; }
 
 ul .title {
-  list-style-image: url(multimedia/checkmark1.png);
-}
+  list-style-image: url(multimedia/checkmark1.png); }
 
-ul .contenido-lista{
-  text-align: justify;
-}
+ul .contenido-lista {
+  text-align: justify; }
+
 /**
 .ecommerce-beneficios{
-  background-color: #212121;**/
-}
-
-/**Contactos**/
-
-.btn-primary{
-  margin-right: 10px;
-  background:   #20B2AA;
-  border: none;
-}
-
-.btn-primary:hover{
-  background-color: #008080;
-}
-
-
-/**footer**/
-
-.footer{
   background-color: #212121;
 }
+**/
+/**Contactos**/
+.btn-primary {
+  margin-right: 10px;
+  background: #20B2AA;
+  border: none; }
 
-.footer a{
-  color:white;
-}
+.btn-primary:hover {
+  background-color: #008080; }
+
+/**footer**/
+.footer {
+  background-color: #212121; }
+
+.footer a {
+  color: white; }
