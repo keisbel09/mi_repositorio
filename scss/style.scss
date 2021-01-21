@@ -1,9 +1,10 @@
 /* Tabla Colores */
 $primario: #008080; //Turquesa
+$primario-hover: #04C9C9;
 $secundario: #212121; //Gris Plomo
 $terciario: #F0F8FF; //Verde Agua
 $letra-primaria: #000000; //Negro
-$letra-secundaria: #ffffff; //Blanco
+$letra-secundaria: #FFFFFF; //Blanco
 
 * {
   padding: 0;
@@ -81,7 +82,7 @@ ul .contenido-lista {
 }
 
 .btn-primary:hover {
-  background-color: $primario;
+  background-color: $primario-hover;
 }
 
 

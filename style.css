@@ -23,7 +23,7 @@ h2 {
   background-image: url(multimedia/servicios.jpg); }
 
 .texto-servicios {
-  color: #ffffff; }
+  color: #FFFFFF; }
 
 /**Ecommerce**/
 h5 {
@@ -32,7 +32,7 @@ h5 {
 
 .text-ecommerce {
   background-color: #008080;
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
   width: 100%;
   height: 100%; }
@@ -61,11 +61,11 @@ ul .contenido-lista {
   border: none; }
 
 .btn-primary:hover {
-  background-color: #008080; }
+  background-color: #04C9C9; }
 
 /**footer**/
 .footer {
   background-color: #212121; }
 
 .footer a {
-  color: #ffffff; }
+  color: #FFFFFF; }
