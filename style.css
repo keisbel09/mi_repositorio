@@ -14,6 +14,15 @@ h2 {
   margin-bottom: 50px;
   text-decoration-line: underline; }
 
+.separador {
+  margin-top: 3rem !important; }
+  .separador--interno {
+    margin-top: 3rem !important; }
+
+@media (min-width: 1200px) {
+  .separador--interno {
+    margin-top: 0rem !important; } }
+
 /**Index**/
 .btn-grafico {
   margin-right: 10px;
