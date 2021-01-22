@@ -90,6 +90,13 @@ ul .contenido-lista {
 .foto-producto img {
   width: 100%; }
 
+/**staff**/
+.staff {
+  width: 100px; }
+
+.staff img {
+  width: 100%; }
+
 /**footer**/
 .footer {
   background-color: #212121; }
