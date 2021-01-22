@@ -83,6 +83,13 @@ ul .contenido-lista {
 .grafico img {
   width: 100%; }
 
+/**fotografia**/
+.foto-producto {
+  width: 200px; }
+
+.foto-producto img {
+  width: 100%; }
+
 /**footer**/
 .footer {
   background-color: #212121; }
