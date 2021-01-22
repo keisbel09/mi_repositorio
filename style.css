@@ -76,6 +76,13 @@ ul .contenido-lista {
 #contacto {
   background-color: #F0F8FF; }
 
+/**Grafico**/
+.grafico {
+  width: 200px; }
+
+.grafico img {
+  width: 100%; }
+
 /**footer**/
 .footer {
   background-color: #212121; }
