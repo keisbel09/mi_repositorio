@@ -23,6 +23,18 @@ h2 {
   .separador--interno {
     margin-top: 0rem !important; } }
 
+.btn-primary {
+  margin-right: 10px;
+  background: #008080;
+  border: none; }
+  .btn-primary:hover {
+    background-color: #04C9C9; }
+
+.btn-secondary {
+  margin-right: 10px;
+  background: #00E676;
+  border: none; }
+
 /**Index**/
 .btn-grafico {
   margin-right: 10px;
@@ -63,14 +75,6 @@ ul .contenido-lista {
 /**Contactos**/
 #contacto {
   background-color: #F0F8FF; }
-
-.btn-primary {
-  margin-right: 10px;
-  background: #008080;
-  border: none; }
-
-.btn-primary:hover {
-  background-color: #04C9C9; }
 
 /**footer**/
 .footer {

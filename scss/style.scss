@@ -4,6 +4,7 @@ $primario-hover: #04C9C9;
 $secundario: #212121; //Gris Plomo
 $terciario: #F0F8FF; //Verde Agua
 $letra-primaria: #000000; //Negro
+$whatsapp: #00E676;//color whatsapp
 $letra-secundaria: #FFFFFF; //Blanco
 $layout-large: 1200px;// tama;o de media
 
@@ -24,10 +25,6 @@ h2 {
   text-decoration-line: underline;
 }
 
-
-
-
-
 .separador {
 	margin-top: 3rem!important;
 	&--interno {
@@ -40,6 +37,24 @@ h2 {
     margin-top: 0rem!important;
   }
 }
+
+.btn {
+	&-primary {
+	  margin-right: 10px;
+	  background: $primario;
+	  border: none;
+	  &:hover {
+		  background-color: $primario-hover;
+		}
+	}
+
+	&-secondary {
+		margin-right: 10px;
+		background: $whatsapp;
+		border: none;
+	}
+}
+
 
 /**Index**/
 
@@ -82,6 +97,7 @@ ul .title {
 ul .contenido-lista {
   text-align: justify;
 }
+
 /**
 .ecommerce-beneficios{
   background-color: $secundario;
@@ -92,17 +108,6 @@ ul .contenido-lista {
 #contacto {
 	background-color: $terciario;
 }
-
-.btn-primary {
-  margin-right: 10px;
-  background:   $primario;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: $primario-hover;
-}
-
 
 /**footer**/
 
