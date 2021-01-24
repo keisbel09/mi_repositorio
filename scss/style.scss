@@ -34,7 +34,20 @@ h2 {
 
 @media (min-width: $layout-large) {
   .separador--interno {
-    margin-top: 0rem!important;
+    margin-top: 2rem!important;
+  }
+}
+1
+.separador--bottom {
+	margin-bottom: 3rem!important;
+	&--interno--bottom {
+  	margin-bottom: 3rem!important;
+  }
+}
+
+@media (min-width: $layout-large) {
+  .separador--interno--bottom {
+    margin-bottom: 2rem!important;
   }
 }
 
@@ -96,6 +109,10 @@ ul .title {
 
 ul .contenido-lista {
   text-align: justify;
+}
+
+.ecommerce-beneficios{
+	background-color:$terciario;
 }
 
 /**

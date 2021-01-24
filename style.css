@@ -21,7 +21,18 @@ h2 {
 
 @media (min-width: 1200px) {
   .separador--interno {
-    margin-top: 0rem !important; } }
+    margin-top: 2rem !important; } }
+
+1
+.separador--bottom {
+  margin-bottom: 3rem !important; }
+  1
+.separador--bottom--interno--bottom {
+    margin-bottom: 3rem !important; }
+
+@media (min-width: 1200px) {
+  .separador--interno--bottom {
+    margin-bottom: 2rem !important; } }
 
 .btn-primary {
   margin-right: 10px;
@@ -66,6 +77,9 @@ ul .title {
 
 ul .contenido-lista {
   text-align: justify; }
+
+.ecommerce-beneficios {
+  background-color: #F0F8FF; }
 
 /**
 .ecommerce-beneficios{
