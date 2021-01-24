@@ -3,16 +3,16 @@
   padding: 0;
   margin: 0;
   font-size: 15px;
-  font-family: sans-serif, Impact;
+  font-family: 'Nunito', sans-serif;
   line-height: 20px; }
 
 h2 {
-  font-size: 40px;
-  color: #20B2AA;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-decoration-line: underline; }
+  font-size: 25px;
+  font-weight: bold; }
+
+h3 {
+  font-size: 20px;
+  font-weight: bold; }
 
 .separador {
   margin-top: 3rem !important; }
@@ -58,10 +58,6 @@ h2 {
   color: #FFFFFF; }
 
 /**Ecommerce**/
-h5 {
-  font-size: 20px;
-  font-weight: bold; }
-
 .text-ecommerce {
   background-color: #008080;
   color: #FFFFFF;
@@ -80,6 +76,9 @@ ul .contenido-lista {
 
 .ecommerce-beneficios {
   background-color: #F0F8FF; }
+
+.text--ecommerce {
+  text-align: justify; }
 
 /**
 .ecommerce-beneficios{

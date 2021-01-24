@@ -12,17 +12,18 @@ $layout-large: 1200px;// tama;o de media
   padding: 0;
   margin: 0;
   font-size: 15px;
-  font-family: sans-serif, Impact;
+  font-family: 'Nunito', sans-serif;
   line-height: 20px;
 }
 
 h2 {
-  font-size: 40px;
-  color: #20B2AA;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-decoration-line: underline;
+ 	font-size: 25px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .separador {
@@ -86,11 +87,6 @@ h2 {
 
 /**Ecommerce**/
 
-h5 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
 .text-ecommerce {
   background-color: $primario;
   color: $letra-secundaria;
@@ -111,8 +107,12 @@ ul .contenido-lista {
   text-align: justify;
 }
 
-.ecommerce-beneficios{
+.ecommerce-beneficios {
 	background-color:$terciario;
+}
+
+.text--ecommerce {
+	text-align: justify;
 }
 
 /**
@@ -135,6 +135,7 @@ ul .contenido-lista {
 .grafico img {
 	width: 100%;
 }
+
 
 /**fotografia**/
 
